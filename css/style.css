@@ -1,0 +1,75 @@
+* { 
+    margin: 0;  /* marge externe : raccourci m0 */
+    padding: 0;  /* marge interne : raccourci p0 */
+    box-sizing: border-box;  /* éléments seront traités avec les bordures qu'on leur applique */
+}
+
+#wrapper {
+    display : flex;
+    flex-wrap : wrap;
+    flex-direction : column;
+    min-height: 100vh;
+    width: 80vw;
+    justify-content : center;
+    align-items : center;
+    gap : 20px;
+    background-color: #f0f0f0;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction : row;
+    justify-content: center;
+    align-items : center;
+    width: 100%;
+    gap : 20px
+}
+
+.carre {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.rectangle {
+    width: 200px;
+    height: 200px;
+}
+
+#carre1 {
+    background-color: #FF5733;
+}
+
+#carre2 {
+    background-color: #33FF57;
+}
+
+#carre3 {
+    background-color: #3357FF;
+}
+
+#carre4 {
+    background-color: #F1C40F;
+}
+
+
+#carre-du-bas {
+    background-color: transparent;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black; /* Couleur du texte par défaut */
+}
+
+
+.resultat {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#code-couleur {
+    color : white;
+}

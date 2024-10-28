@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice des Carrés</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h2>
+            Exercice 02
+        </h2>
+        <h3>
+            Créer une page web affichant 4 carrés de 200 x 200 pixels avec un fond de couleur différente pour chaque carré
+        </h3>
+        <p>
+            En cliquant sur n'importe quel carré du haut, le carré du bas prend sa couleur et le code couleur du carré sélectionné s'affiche.
+        </p>
+        <div>
+            <img src="images/image01.jpg" alt="les carrés à représenter et le résultat">
+        </div>
+        <div class="container">
+            <div class="carre" id="carre1"></div>
+            <div class="carre" id="carre2"></div>
+            <div class="carre" id="carre3"></div>
+            <div class="carre" id="carre4"></div>
+        </div>
+        <div class="resultat">
+            <div class="rectangle" id="carre-du-bas">
+                <span id="code-couleur">Cliquez</span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
